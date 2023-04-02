@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="FelineTest" time="2.762" tests="5" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="sun.cpu.isalist" value="pentium_pro+mmx pentium_pro pentium+mmx pentium i486 i386 i86"/>
+    <property name="sun.jnu.encoding" value="Cp1251"/>
+    <property name="java.class.path" value="C:\Work\qa_java\target\test-classes;C:\Work\qa_java\target\classes;C:\Users\AKarpenko\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\AKarpenko\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\AKarpenko\.m2\repository\org\mockito\mockito-core\5.2.0\mockito-core-5.2.0.jar;C:\Users\AKarpenko\.m2\repository\net\bytebuddy\byte-buddy-agent\1.14.1\byte-buddy-agent-1.14.1.jar;C:\Users\AKarpenko\.m2\repository\org\objenesis\objenesis\3.3\objenesis-3.3.jar;C:\Users\AKarpenko\.m2\repository\com\tngtech\java\junit-dataprovider\1.13.1\junit-dataprovider-1.13.1.jar;C:\Users\AKarpenko\.m2\repository\net\bytebuddy\byte-buddy\1.14.2\byte-buddy-1.14.2.jar;"/>
+    <property name="java.vm.vendor" value="Amazon.com Inc."/>
+    <property name="sun.arch.data.model" value="32"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://aws.amazon.com/corretto/"/>
+    <property name="user.timezone" value="Europe/Moscow"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="RU"/>
+    <property name="sun.boot.library.path" value="C:\Program Files (x86)\Amazon Corretto\jdk11.0.17_8\bin"/>
+    <property name="sun.java.command" value="C:\Users\AKARPE~1\AppData\Local\Temp\surefire442368015229517830\surefirebooter12829879169763223588.jar C:\Users\AKarpenko\AppData\Local\Temp\surefire442368015229517830 2023-03-23T22-01-47_091-jvmRun2 surefire17715019229364091718tmp surefire_07143175230132188755tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Work\qa_java\target\test-classes;C:\Work\qa_java\target\classes;C:\Users\AKarpenko\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\AKarpenko\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\AKarpenko\.m2\repository\org\mockito\mockito-core\5.2.0\mockito-core-5.2.0.jar;C:\Users\AKarpenko\.m2\repository\net\bytebuddy\byte-buddy-agent\1.14.1\byte-buddy-agent-1.14.1.jar;C:\Users\AKarpenko\.m2\repository\org\objenesis\objenesis\3.3\objenesis-3.3.jar;C:\Users\AKarpenko\.m2\repository\com\tngtech\java\junit-dataprovider\1.13.1\junit-dataprovider-1.13.1.jar;C:\Users\AKarpenko\.m2\repository\net\bytebuddy\byte-buddy\1.14.2\byte-buddy-1.14.2.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\AKarpenko"/>
+    <property name="user.language" value="ru"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2022-10-18"/>
+    <property name="java.home" value="C:\Program Files (x86)\Amazon Corretto\jdk11.0.17_8"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Work\qa_java"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\AKARPE~1\AppData\Local\Temp\surefire442368015229517830\surefirebooter12829879169763223588.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot Tiered Compilers"/>
+    <property name="java.runtime.version" value="11.0.17+8-LTS"/>
+    <property name="user.name" value="AKarpenko"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="Cp1251"/>
+    <property name="java.vm.name" value="OpenJDK Server VM"/>
+    <property name="java.vendor.version" value="Corretto-11.0.17.8.1"/>
+    <property name="localRepository" value="C:\Users\AKarpenko\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/corretto/corretto-11/issues/"/>
+    <property name="java.io.tmpdir" value="C:\Users\AKARPE~1\AppData\Local\Temp\"/>
+    <property name="java.version" value="11.0.17"/>
+    <property name="user.dir" value="C:\Work\qa_java"/>
+    <property name="os.arch" value="x86"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files (x86)\Amazon Corretto\jdk11.0.17_8\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:\Program Files (x86)\Amazon Corretto\jdk11.0.17_8\bin;C:\Program Files\AdoptOpenJDK\jdk-8.0.292.10-hotspot\bin;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\apache-maven-3.8.7\bin;C:\Program Files\Git\cmd;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\AKarpenko\AppData\Local\Microsoft\WindowsApps;C:\apache-maven-3.8.7\bin;C:\WebDriver\bin;;."/>
+    <property name="java.vm.info" value="mixed mode, emulated-client"/>
+    <property name="java.vendor" value="Amazon.com Inc."/>
+    <property name="java.vm.version" value="11.0.17+8-LTS"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="55.0"/>
+  </properties>
+  <testcase name="getFamilyTest" classname="FelineTest" time="2.61"/>
+  <testcase name="getKittensTest[0: 0, 0, 3]" classname="FelineTest" time="0.002"/>
+  <testcase name="getKittensTest[1: 20, 20, 10]" classname="FelineTest" time="0.002"/>
+  <testcase name="getKittensTest[2: 100, 100, 200]" classname="FelineTest" time="0.001"/>
+  <testcase name="eatMeatTest" classname="FelineTest" time="0.001"/>
+</testsuite>
