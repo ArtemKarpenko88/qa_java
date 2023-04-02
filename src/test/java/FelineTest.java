@@ -1,4 +1,5 @@
 import com.example.Feline;
+import com.example.Lion;
 import com.tngtech.java.junit.dataprovider.DataProvider;
 import com.tngtech.java.junit.dataprovider.DataProviderRunner;
 import com.tngtech.java.junit.dataprovider.UseDataProvider;
@@ -28,7 +29,7 @@ public class FelineTest {
     Feline feline;
 
     @DataProvider
-    public static Object[][] generateNumberOfKittensNotEquals() {
+    public static Object[][] generateKittensNotEquals() {
 
         return new Object[][]{
 
@@ -36,7 +37,7 @@ public class FelineTest {
     }
 
     @Test
-    @UseDataProvider("generateNumberOfKittensNotEquals")
+    @UseDataProvider("generateKittensNotEquals")
     public void getKittensTestNotEquals(int expected, int negativeExpected) {
 
         int actual = feline.getKittens(negativeExpected);
@@ -46,7 +47,7 @@ public class FelineTest {
     }
 
     @DataProvider
-    public static Object[][] generateNumberOfKittens() {
+    public static Object[][] generateKittensEquals() {
 
         return new Object[][]{
 
@@ -54,7 +55,7 @@ public class FelineTest {
     }
 
     @Test
-    @UseDataProvider("generateNumberOfKittens")
+    @UseDataProvider("generateKittensEquals")
     public void getKittensTestEquals(int positiveExpected, int expected) {
 
         int actual = feline.getKittens(positiveExpected);

@@ -1,3 +1,5 @@
+
+
 import com.example.Feline;
 import com.example.IFeline;
 import com.example.Lion;
@@ -10,6 +12,7 @@ import org.junit.Rule;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.mockito.Mockito;
+import org.mockito.Spy;
 import org.mockito.junit.MockitoJUnit;
 
 import org.mockito.junit.MockitoRule;
@@ -85,6 +88,28 @@ public class LionTest {
         Assert.assertNotEquals(expected, actual);
     }
 
+    /**
+     * Вариант 1: Работа с Exception
+     */
+    @Test
+    public void lionConstructorTest() {
+        boolean expected = false;
+        Lion lion;
+        try {
+            lion = new Lion("Самfgfgец", feline);
+            boolean actual = lion.doesHaveMane();
+
+            Assert.assertEquals(expected, actual);
+        } catch (Exception e) {
+
+            Assert.assertEquals(expected, false);
+        }
+
+    }
+
+    /**
+     * Вариант 2: Работа с Exception
+     */
     @Test
     public void getExceptionConstructorTest() {
         assertThrows(Exception.class, () -> new Lion("test", feline).doesHaveMane());
